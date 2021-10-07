@@ -85,73 +85,26 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@56e24299
+<pre>REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@53d9bce0
 
 ?[31mFailed scenarios:?[0m
-?[31msrc/test/resources/features/academyChoucair.feature:6 ?[0m# Search for a automation curse
+?[31msrc/test/resources/features/academyChoucair.feature:19 ?[0m# Search for a automation course
 
 1 Scenarios (?[31m1 failed?[0m)
 3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
-0m11,619s
+0m10,233s
 
-cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChouxairAcademyPlatform() in file:/C:/Users/DARIO%20CUELLAR/IdeaProjects/co.com.choucair.certification.proyectobase/build/classes/java/test/' with pattern [^he search for the course (.*) on the Chouxair Academy platform$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Recursos Automatizacion Bancolombia]. 
-Step text: he search for the course Recursos Automatizacion Bancolombia on the Chouxair Academy platform
-	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:111)
-	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:66)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
-	at cucumber.api.TestStep.executeStep(TestStep.java:102)
-	at cucumber.api.TestStep.run(TestStep.java:83)
-	at cucumber.api.TestCase.run(TestCase.java:58)
-	at cucumber.runner.Runner.runPickle(Runner.java:80)
-	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NullPointerException
+	at net.serenitybdd.core.injectors.EnvironmentDependencyInjector.matchingFieldsIn(EnvironmentDependencyInjector.java:88)
+	at net.serenitybdd.core.injectors.EnvironmentDependencyInjector.injectDependenciesInto(EnvironmentDependencyInjector.java:32)
+	at net.thucydides.core.steps.PageObjectDependencyInjector.injectDependenciesInto(PageObjectDependencyInjector.java:28)
+	at net.thucydides.core.steps.StepFactory.injectOtherDependenciesInto(StepFactory.java:181)
+	at net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:198)
+	at net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:130)
+	at net.serenitybdd.screenplay.Tasks.instrumented(Tasks.java:12)
+	at co.com.choucair.certification.proyectobase.tasks.Search.the(Search.java:19)
+	at co.com.choucair.certification.proyectobase.stepdefinitions.ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChouxairAcademyPlatform(ChoucairAcademyStepDefinitions.java:36)
+	at ?.he search for the course on the Chouxair Academy platform(src/test/resources/features/academyChoucair.feature:11)
 
 </pre>
 </span>
@@ -177,7 +130,7 @@ Step text: he search for the course Recursos Automatizacion Bancolombia on the C
 -------------------------------------------------------------------------------------
 
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Academy Choucair
-[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testStarted: Search for a automation curse/academy-choucair;search-for-a-automation-curse
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testStarted: Search for a automation course/academy-choucair;search-for-a-automation-course
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
@@ -186,8 +139,9 @@ Step text: he search for the course Recursos Automatizacion Bancolombia on the C
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Search for a automation curse
--------------------------------------------------------------------(academy-choucair;search-for-a-automation-curse)
+TEST STARTED: Search for a automation course
+-------------------------------------------------------------------(academy-choucair;search-for-a-automation-course)
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@82cdd31
 [pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
 </pre>
 </span>
@@ -200,7 +154,7 @@ TEST STARTED: Search for a automation curse
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 5/10/2021, 11:28:43 p. m.</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 6/10/2021, 8:33:40 p. m.</p>
 </div>
 </div>
 </body>

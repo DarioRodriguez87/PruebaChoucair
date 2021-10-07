@@ -12,7 +12,6 @@ import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
 import java.util.List;
 
 public class ChoucairAcademyStepDefinitions
@@ -31,14 +30,14 @@ public class ChoucairAcademyStepDefinitions
 
     }
 
-    @When("^he search for the course (.*) on the Chouxair Academy platform$")
+    @When("^he search for the course on the Chouxair Academy platform$")
     public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChouxairAcademyPlatform(List<AcademyChoucairData> academyChoucairData) throws Exception {
         // Write code here that turns the phrase above into concrete actions
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(academyChoucairData.get(0).getStrCourse()));
 
     }
 
-    @Then("^he finds the course called resources (.*)$")
+    @Then("^he finds the course called$")
     public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(List<AcademyChoucairData> academyChoucairData) throws Exception {
         // Write code here that turns the phrase above into concrete actions
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(academyChoucairData.get(0).getStrCourse())));

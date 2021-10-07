@@ -6,7 +6,6 @@ public class AcademyChoucairData {
     private String strPassword;
     private String strCourse;
 
-
     public String getStrUser() {
         return strUser;
     }
